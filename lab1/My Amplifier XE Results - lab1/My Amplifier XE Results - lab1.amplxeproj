@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <connectionOption>localhost</connectionOption>
+ <rdmgr>
+  <timestamp type="u64_t">1539281018</timestamp>
+  <hostname>DESKTOP-LO22S9L</hostname>
+  <os>windows</os>
+  <product>Intel® VTune™ Amplifier XE 2015 Update 4</product>
+  <buildNumber type="s32_t">410668</buildNumber>
+  <logicalCPUCount type="s32_t">4</logicalCPUCount>
+  <CPUFrequency type="s64_t">2500000000</CPUFrequency>
+ </rdmgr>
+ <All_Configurations-All_Platforms>
+  <target_settings>
+   <selected_workload>
+    <localhost>launch</localhost>
+   </selected_workload>
+   <result_dir>
+    <localhost>D:\Документы\11 semester\u131045\IPS\ips_lab\lab1\My Amplifier XE Results - lab1</localhost>
+   </result_dir>
+   <result_pattern>
+    <localhost>r@@@{at}</localhost>
+   </result_pattern>
+   <workloads>
+    <localhost>
+     <attach type="pointer" type_id="dasID_cctrl2::AttachWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>attach</targetName>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <attach.process_name>lab1.exe</attach.process_name>
+       <attach.pid type="null"></attach.pid>
+       <result_directory.path>D:\Документы\11 semester\u131045\IPS\ips_lab\lab1\My Amplifier XE Results - lab1\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=D:\Документы\11 semester\u131045\IPS\ips_lab\Debug</value>
+        </item>
+        <item>
+         <value>sym=D:\Документы\11 semester\u131045\IPS\ips_lab</value>
+        </item>
+        <item>
+         <value>bin=D:\Документы\11 semester\u131045\IPS\ips_lab\Debug</value>
+        </item>
+        <item>
+         <value>bin=D:\Документы\11 semester\u131045\IPS\ips_lab</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(VC_ExecutablePath_x86)</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Trace Analyzer and Collector\9.0.3.050\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\MPI\5.0.3.050\intel64\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\OpenSSH</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Git\cmd</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2014a\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2014a\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\CMake\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Trace Analyzer and Collector\9.0.3.050\dll</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\Дмитрий Вукалов\AppData\Local\Microsoft\WindowsApps</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\opencv\build\x64\vc14\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\opencv\build\x64\vc14</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeKvmGuest</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeSystemWide</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>followChildStrategy</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>goodFastFrameThreshold</id>
+         <value type="double">100</value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestKallsyms</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestModules</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmProfileGuest</id>
+         <value type="null"></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>auto</value>
+        </contextValue>
+        <contextValue>
+         <id>slowGoodFrameThreshold</id>
+         <value type="double">40</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>attach</value>
+        </contextValue>
+       </context>
+      </workload>
+     </attach>
+     <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>launch</targetName>
+       <launch_app.inherit_sys_environment type="bool">true</launch_app.inherit_sys_environment>
+       <launch_app.app_to_launch>D:\Документы\11 semester\u131045\IPS\ips_lab\Debug\lab1.exe</launch_app.app_to_launch>
+       <launch_app.working_folder>D:\Документы\11 semester\u131045\IPS\ips_lab\lab1</launch_app.working_folder>
+       <launch_app.app_parameters></launch_app.app_parameters>
+       <launch_app.environment></launch_app.environment>
+       <launch_app.environment_prepend>PATH=C:\Program Files (x86)\Intel\Composer XE 2015\redist\ia32\compiler;</launch_app.environment_prepend>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>D:\Документы\11 semester\u131045\IPS\ips_lab\lab1\My Amplifier XE Results - lab1\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=D:\Документы\11 semester\u131045\IPS\ips_lab\Debug</value>
+        </item>
+        <item>
+         <value>sym=D:\Документы\11 semester\u131045\IPS\ips_lab</value>
+        </item>
+        <item>
+         <value>bin=D:\Документы\11 semester\u131045\IPS\ips_lab\Debug</value>
+        </item>
+        <item>
+         <value>bin=D:\Документы\11 semester\u131045\IPS\ips_lab</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(VC_ExecutablePath_x86)</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Trace Analyzer and Collector\9.0.3.050\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\MPI\5.0.3.050\intel64\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\OpenSSH</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Git\cmd</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2014a\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2014a\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\CMake\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Trace Analyzer and Collector\9.0.3.050\dll</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\Дмитрий Вукалов\AppData\Local\Microsoft\WindowsApps</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\opencv\build\x64\vc14\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\opencv\build\x64\vc14</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeKvmGuest</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeSystemWide</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>determineMpiRank</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>followChildStrategy</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>goodFastFrameThreshold</id>
+         <value type="double">100</value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestKallsyms</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestModules</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmProfileGuest</id>
+         <value type="null"></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>native</value>
+        </contextValue>
+        <contextValue>
+         <id>slowGoodFrameThreshold</id>
+         <value type="double">40</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>launch</value>
+        </contextValue>
+       </context>
+      </workload>
+     </launch>
+     <system type="pointer" type_id="dasID_cctrl2::SystemWideWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>system</targetName>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>D:\Документы\11 semester\u131045\IPS\ips_lab\lab1\My Amplifier XE Results - lab1\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=D:\Документы\11 semester\u131045\IPS\ips_lab\Debug</value>
+        </item>
+        <item>
+         <value>sym=D:\Документы\11 semester\u131045\IPS\ips_lab</value>
+        </item>
+        <item>
+         <value>bin=D:\Документы\11 semester\u131045\IPS\ips_lab\Debug</value>
+        </item>
+        <item>
+         <value>bin=D:\Документы\11 semester\u131045\IPS\ips_lab</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(VC_ExecutablePath_x86)</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=D:/Документы\11 semester\u131045\IPS\ips_lab\lab1\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Trace Analyzer and Collector\9.0.3.050\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\MPI\5.0.3.050\intel64\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\OpenSSH</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Git\cmd</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2014a\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2014a\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\CMake\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\Trace Analyzer and Collector\9.0.3.050\dll</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\Дмитрий Вукалов\AppData\Local\Microsoft\WindowsApps</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\opencv\build\x64\vc14\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\opencv\build\x64\vc14</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeKvmGuest</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>goodFastFrameThreshold</id>
+         <value type="double">100</value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestKallsyms</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestModules</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmProfileGuest</id>
+         <value type="null"></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>native</value>
+        </contextValue>
+        <contextValue>
+         <id>slowGoodFrameThreshold</id>
+         <value type="double">40</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>system</value>
+        </contextValue>
+       </context>
+      </workload>
+     </system>
+    </localhost>
+   </workloads>
+  </target_settings>
+  <searchDirs>
+   <searchCategory>
+    <category type="u8_t">1</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">2</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">3</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">4</category>
+   </searchCategory>
+  </searchDirs>
+  <analysis_type_settings>
+   <selected_analysis_type_path>C:\Program Files (x86)\Intel\VTune Amplifier XE 2015\config\analysis_type\basic_hotspots.cfg</selected_analysis_type_path>
+  </analysis_type_settings>
+ </All_Configurations-All_Platforms>
+ <engine>
+  <knobs>
+   <frameThreshold>
+&lt;bag xmlns:double=&quot;http://www.intel.com/2001/XMLSchema#double&quot;&gt;
+ &lt;minValueThresholds domain=&quot;&quot;&gt;
+  &lt;double:minValueThreshold name=&quot;%SlowFrame&quot;&gt;0&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;%GoodFrame&quot;&gt;40&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;%FastFrame&quot;&gt;100&lt;/double:minValueThreshold&gt;
+ &lt;/minValueThresholds&gt;
+&lt;/bag&gt;
+</frameThreshold>
+   <utilizationThreshold>&lt;bag xmlns:double=&quot;http://www.w3.org/2001/XMLSchema#double&quot;
+                  xmlns:boolean=&quot;http://www.w3.org/2001/XMLSchema#boolean&quot;&gt;
+          &lt;minValueThresholds boolean:scaled=&quot;true&quot;&gt;
+            &lt;double:minValueThreshold name=&quot;%Idle&quot;&gt;-1&lt;/double:minValueThreshold&gt;
+            &lt;double:minValueThreshold name=&quot;%Poor&quot;&gt;0.0000001&lt;/double:minValueThreshold&gt;
+            &lt;double:minValueThreshold name=&quot;%Ok&quot;&gt;0.5001&lt;/double:minValueThreshold&gt;
+            &lt;double:minValueThreshold name=&quot;%Ideal&quot;&gt;0.85&lt;/double:minValueThreshold&gt;
+            &lt;double:minValueThreshold name=&quot;%Over&quot;&gt;1.15&lt;/double:minValueThreshold&gt;
+          &lt;/minValueThresholds&gt;
+        &lt;/bag&gt;</utilizationThreshold>
+   <taskThreshold>
+&lt;bag xmlns:double=&quot;http://www.intel.com/2001/XMLSchema#double&quot;&gt;
+ &lt;minValueThresholds domain=&quot;&quot;&gt;
+  &lt;double:minValueThreshold name=&quot;%FastTask&quot;&gt;0&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;%GoodTask&quot;&gt;0.20000000000000001&lt;/double:minValueThreshold&gt;
+  &lt;double:minValueThreshold name=&quot;%SlowTask&quot;&gt;0.80000000000000004&lt;/double:minValueThreshold&gt;
+ &lt;/minValueThresholds&gt;
+&lt;/bag&gt;
+</taskThreshold>
+  </knobs>
+ </engine>
+ <contextValues>
+  <contextValue>
+   <id>emulatorByCtxKnob</id>
+   <value></value>
+  </contextValue>
+ </contextValues>
+</root>
